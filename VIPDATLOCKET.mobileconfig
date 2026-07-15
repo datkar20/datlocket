@@ -10,28 +10,28 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.locketgold.dns</string>
+            <string>com.locketgold.dns.v2</string>
             <key>PayloadUUID</key>
-            <string>11111111-2222-3333-4444-555555555555</string>
+            <string>12345678-1234-1234-1234-123456789ABC</string>
             <key>PayloadDisplayName</key>
-            <string>Locket Gold DNS</string>
+            <string>Locket Gold DNS VIP</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
                 <key>ServerURL</key>
-                <string>https://dns.nextdns.io/71d9b2</string>  <!-- Thay abc123456 bằng ID NextDNS của bạn -->
+                <string>https://dns.nextdns.io/71d9b2</string>
             </dict>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold VIP - Không cần VPN</string>
+    <string>Locket Gold VIP - Anti Revoke Max</string>
     <key>PayloadIdentifier</key>
-    <string>com.locketgold.vip.profile</string>
+    <string>com.locketgold.vip.max</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>66666666-7777-8888-9999-000000000000</string>
+    <string>87654321-4321-4321-4321-210987654321</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
