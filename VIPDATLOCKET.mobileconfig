@@ -10,11 +10,11 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.locketgold.dns.v3</string>
+            <string>com.locketgold.dns.max</string>
             <key>PayloadUUID</key>
             <string>12345678-1234-1234-1234-123456789ABC</string>
             <key>PayloadDisplayName</key>
-            <string>Locket Gold DNS</string>
+            <string>Locket Gold DNS Max</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -25,18 +25,16 @@
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold VIP - Anti Revoke</string>
+    <string>Locket Gold VIP Max</string>
     <key>PayloadDescription</key>
-    <string>Cấu hình giữ Locket Gold vĩnh viễn - Block RevenueCat</string>
+    <string>Block RevenueCat + Apple validation</string>
     <key>PayloadIdentifier</key>
-    <string>com.locketgold.vip.profile</string>
+    <string>com.locketgold.max</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
     <string>87654321-4321-4321-4321-210987654321</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
-    <key>PayloadOrganization</key>
-    <string>VIP DATLOCKET</string>
 </dict>
 </plist>
