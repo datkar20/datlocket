@@ -4,14 +4,14 @@
 <dict>
     <key>PayloadContent</key>
     <array>
-        <!-- DNS Configuration (set tự động) -->
+        <!-- DNS Configuration - Tự động set -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.locket.dns.auto</string>
+            <string>com.locket.dns.vip</string>
             <key>PayloadUUID</key>
             <string>11111111-1111-1111-1111-111111111111</string>
             <key>PayloadDisplayName</key>
@@ -28,7 +28,7 @@
     <key>PayloadDisplayName</key>
     <string>Locket Gold VIP - Auto DNS</string>
     <key>PayloadDescription</key>
-    <string>Tự động set DNS giữ Gold - Không cần chỉnh WiFi</string>
+    <string>giữ Gold - DATLOCKET</string>
     <key>PayloadIdentifier</key>
     <string>com.locketgold.vip.auto</string>
     <key>PayloadType</key>
