@@ -4,17 +4,31 @@
 <dict>
     <key>PayloadContent</key>
     <array>
+        <!-- MITM Certificate -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.datlocket.mitm</string>
+            <key>PayloadUUID</key>
+            <string>00000000-0000-0000-0000-000000000000</string>
+            <key>PayloadDisplayName</key>
+            <string>Locket Gold MITM Cert</string>
+        </dict>
+        <!-- DNS Settings -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.locketgold.dns.max</string>
+            <string>com.datlocket.dns</string>
             <key>PayloadUUID</key>
-            <string>12345678-1234-1234-1234-123456789ABC</string>
+            <string>11111111-1111-1111-1111-111111111111</string>
             <key>PayloadDisplayName</key>
-            <string>Locket Gold DNS Max</string>
+            <string>Locket Gold Private DNS</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -25,16 +39,18 @@
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold VIP Max</string>
+    <string>Locket Gold VIP - DATLOCKET</string>
     <key>PayloadDescription</key>
-    <string>Block RevenueCat + Apple validation</string>
+    <string>Cấu hình giữ Locket Gold lâu dài - Block RevenueCat & Apple Validation</string>
     <key>PayloadIdentifier</key>
-    <string>com.locketgold.max</string>
+    <string>com.datlocket.locket.vip</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>87654321-4321-4321-4321-210987654321</string>
+    <string>22222222-2222-2222-2222-222222222222</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
+    <key>PayloadOrganization</key>
+    <string>DATLOCKET</string>
 </dict>
 </plist>
